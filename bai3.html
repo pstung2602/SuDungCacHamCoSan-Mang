@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var str=prompt("Nhap").toString();
+    var chuoi = [];
+    for(var x=0; x<str.length; x++)
+    {
+        if(str[x]===str[x].toUpperCase())
+        {
+            chuoi.push(str[x].toLowerCase());
+        }else
+        {
+            chuoi.push(str[x].toUpperCase());
+        }
+
+    }
+    console.log(chuoi.join(''));
+</script>
+
+</body>
+</html>
